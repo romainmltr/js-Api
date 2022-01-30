@@ -96,3 +96,53 @@ button{
    
 
 }
+
+
+.btn-random{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+header{
+    text-align: center;
+    font-size:32px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+#typesMeal{
+    color: black;
+}
+
+.random-meal{
+    color: black;
+}
+
+.allSelect{
+    margin-left: 45%;
+ 
+}
+
+
+.alcoolType{
+    display: flex;
+    justify-content: center;
+}
+
+.alcoolType img{
+    width: 40%;
+}
+
+#mealRadom{
+    text-align: center;
+}
+
+.bg{
+    background-image:  url("img/lily-banse--YHSwy6uqvk-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

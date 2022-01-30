@@ -11,36 +11,47 @@
 
 
     <header>
-        <h1>Recette De plat et de cocktail</h1>
+        <h1 class="page-header">Recette De plat et de cocktail</h1>
     </header>
 
 
+<div class="bg">
+    <div class="btn-random">
+    <button id="randomCocktail" onclick="randomCocktail()">Random Cocktail en bas</button>
+    <button id="randomMeal" onclick="randomMeal()">Random Meal</button>
+    </div>
 
-    
-    <button id="randomCocktail" onclick="randomCocktail()">Random Cocktail</button>
+        <div class="allSelect">
+        <select id="typesCocktail" name="typesCocktail">
+            <option value="vodka">-</option>
+        </select>
+
+        <select id="typesMeal" name="typesMeal">
+            <option value="country">-</option>
+        </select>
+        </div>
 
 
-    <select id="typesCocktail" name="typesCocktail">
-        <option value="vodka">-</option>
-    </select>
 
 
     <div class ="allApi"> 
             <div id = "cocktailCollection">
-                <select id="types-beers">
-                    <option>Choose Your Beers </option>
-                </select>
             </div>
 
             <div id = "mealCollection" class="collectName ">
-                <select id="types-meal">
-                    <option>Choose Your Meal </option>
-                </select>
             </div>
     </div>
 
     <div id="cocktailRadom">
     </div>
+
+    
+    <div id="mealRadom">
+    </div>
+
+</div>
+
+    
 
 
 
