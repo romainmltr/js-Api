@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+body{
+    background:rgb(255,255,255) linear-gradient(9deg, rgba(255,255,255,1) 0%, rgba(0,241,75,1) 100%) no-repeat ;    
+}
+
+
+
+.allApi {
+    gap:15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius:5px;
+}
+
+
+.card-meal{
+    padding: 1% 2% 4% 2%;
+    margin-left: 15%;
+    width: 10%;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    gap: 1rem;
+    margin: 2.5% 1% 0 1%;
+
+}
+
+    .card-meal img{
+    width: 100%;
+    }
+
+
+    
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+   
+
+}
